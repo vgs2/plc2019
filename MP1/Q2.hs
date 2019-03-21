@@ -31,4 +31,4 @@ pegaMax ((a, b, c, d):as) | d > pegaMax as = d
                           | otherwise = pegaMax as                        
                           
 minMaxCartao :: String -> (Double, Double)
-minMaxCartao log = (pegaMin(megaTuplacion(logCartao)), pegaMax(megaTuplacion(logCartao)))
+minMaxCartao log = (pegaMin(megaTuplacion(log)), pegaMax(megaTuplacion(log)))
